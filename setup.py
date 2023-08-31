@@ -1,11 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name="common_fastapi",
+    name="common_logging",
     description="My customized library for using FastAPI framework",
     version="v1.0.0",
     author="Alexander Andryukov",
     author_email='andryukov@gmail.com',
-    install_requires=['fastapi==0.103.0']
-
 )
